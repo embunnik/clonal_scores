@@ -1,5 +1,5 @@
 # clonal_scores
-Perl code to find clonal sequences in B cell receptor sequencing data, defined as having the same IGHV usage, the same IGHJ usage, the same HCDR3 length, and at least X% similarity in HCDR3 sequence, where X is user defined
+Perl code to find clonal sequences in B cell receptor sequencing data, defined as having the same IGHV usage, the same IGHJ usage, the same HCDR3 length, and at least X% similarity in HCDR3 sequence, where X is user defined.
 
 ## Usage
 perl clonal_scores.pl sequence_data.csv X
