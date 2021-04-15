@@ -5,8 +5,8 @@ use warnings;
 # usage: perl clonal_scores.pl <sequence_data.csv> <percent AA similarity in HCDR3>
 # To retrieve clonal expansion and clonal connection scores within and between B cell subsets.
 
-open(IN, "<$ARGV[0]") || die $!;
-open(OUT, ">$ARGV[0].$ARGV[1].Results.txt") || die $!;
+open(IN, "<", $ARGV[0]) || die $!;
+open(OUT, ">", "$ARGV[0].$ARGV[1].Results.txt") || die $!;
 
 my $similarity = $ARGV[1]/100;
 my %cluster;
