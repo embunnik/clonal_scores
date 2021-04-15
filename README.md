@@ -14,3 +14,5 @@ This will generate an output file that lists the total cell counts in each pair 
 TP1	Ig1	Cell1	Connections1	Total count cells1	TP2	Ig2	Cell2	Connections2	Total count cells2	Clonal score
 0	IgM	Naive_B_cell	169	5785	0	IgM	Naive_B_cell	169	5785	2.92
 0	IgM	Naive_B_cell	3	5785	0	IgM	FcRL5-_classical_MBC	3	342	0.88
+
+
