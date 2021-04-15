@@ -1,7 +1,10 @@
 # clonal_scores
 Perl code to find clonal sequences in B cell receptor sequencing data
 
-Usage: perl clonal_scores.pl <sequence_data.csv> <percent AA similarity in HCDR3>
+## Usage
+perl clonal_scores.pl <sequence_data.csv> <percent AA similarity in HCDR3>
+
+## Input file
 
 The csv file should be formatted as follows:
 
@@ -12,7 +15,7 @@ atMBC IgG 0 IGHV1-58  IGHJ6 CAAGKYYYDSSGYSPYYYYYGMDVW
 
 atMBC IgG 0 IGHV5-51  IGHJ6 CAGEQWKLRGVNYYFYGMDVW
 
-
+## Output file
 This will generate an output file that lists the total cell counts in each pair of B cell subsets, the number of clonal connections, and the clonal score:
 
 
